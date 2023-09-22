@@ -1,6 +1,6 @@
 create table CLIENTE
 (
-    ID_CLIENTE NUMBER default 19 not null constraint CLIENTE_PK primary key,
+    ID_CLIENTE NUMBER constraint CLIENTE_PK primary key,
     NM_CLIENTE VARCHAR2(255)
 );
 
